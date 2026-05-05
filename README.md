@@ -46,6 +46,45 @@ The tool derives the AES key from the embedded key material, then decrypts each 
 - OpenSSL (`libssl-dev`)
 
 ---
+ 
+## Installation
+ 
+### Manual
+ 
+```bash
+# Install OpenSSL dev library
+sudo apt install libssl-dev gcc
+ 
+# Compile
+make
+```
+ 
+The binary `readmylogin` appears in the current directory. Move it wherever you like.
+ 
+---
+ 
+## Usage
+ 
+```bash
+./readmylogin ~/.mylogin.cnf
+```
+ 
+### Example output
+ 
+```ini
+[client]
+user = myuser
+password = mypassword
+host = 127.0.0.1
+ 
+[client_prod]
+user = admin
+password = s3cr3t
+host = db.example.com
+port = 3306
+```
+ 
+---
 
 ## Compatibility
 
