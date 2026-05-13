@@ -1,6 +1,6 @@
 # readmylogin
 
-A small C utility to **decrypt and display** the contents of a MySQL `.mylogin.cnf` file — the encrypted login credentials file created by `mysql_config_editor`.
+A small C utility to **decrypt and display** the contents of a MySQL `.mylogin.cnf` file (the encrypted login credentials file created by `mysql_config_editor`).
 
 No MySQL library required. Uses OpenSSL's `libcrypto` only.
 
@@ -8,9 +8,7 @@ No MySQL library required. Uses OpenSSL's `libcrypto` only.
 
 ## Origin
 
-This is a modernized fork of **version 1** (May 21, 2015) of `readmylogin.c`,  
-originally written by **Peter Gulutzan** (Ocelot Computer Services Inc.)  
-and published on [Planet MySQL](https://planet.mysql.com/entry/?id=5990165) / [ocelot.ca](http://ocelot.ca/blog/blog/2015/05/21/decrypt-mylogin-cnf/).
+This is a modernized fork of **version 1** (May 21, 2015) of `readmylogin.c`, originally written by **Peter Gulutzan** (Ocelot Computer Services Inc.) and published on [Planet MySQL](https://planet.mysql.com/entry/?id=5990165) / [ocelot.ca](http://ocelot.ca/blog/blog/2015/05/21/decrypt-mylogin-cnf/).
 
 The upstream source is also part of the [ocelotgui](https://github.com/ocelot-inc/ocelotgui) project.
 
@@ -96,5 +94,5 @@ That said, **this has not been personally tested** beyond MySQL 5.6 files. The o
 
 ## License
 
-BSD 3-Clause — see source file header for full license text.  
+BSD 3-Clause (see source file header for full license text).  
 Original copyright: Ocelot Computer Services Inc.
